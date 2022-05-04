@@ -37,6 +37,7 @@ nav ul li{
 
 .container{
     min-height: 75vh;
+   
 }
 .info{
     background: red;
@@ -52,11 +53,16 @@ nav ul li{
     justify-content: center ;
     align-items: center;
     color: aqua;
+    width:100%;
+}
+.search-icon{
+    position:relative;
+    right:10%;
 }
 .search input{
     width: 350px;
     height: 20px;
-    margin: 10px 515px;
+    /* margin: 10px 515px; */
     border-radius: 5px;
     
 }
