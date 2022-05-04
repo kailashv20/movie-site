@@ -71,8 +71,8 @@ nav ul li{
 .movies{
     margin: 30px;
     gap: 7%;
-    /* width: 200px; */
-    /* height: 200px; */
+    /* width: 290px; */
+    /* height: 180px; */
     flex-wrap: wrap;
     display: flex;
     width: 100%;
@@ -88,4 +88,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.movies >img{
+    margin: 20px;
+    width: 300px;
+
 }
