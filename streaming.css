@@ -37,6 +37,7 @@ nav ul li{
 
 .container{
     min-height: 75vh;
+   
 }
 .info{
     background: red;
@@ -52,11 +53,16 @@ nav ul li{
     justify-content: center ;
     align-items: center;
     color: aqua;
+    width:100%;
+}
+.search-icon{
+    position:relative;
+    right:10%;
 }
 .search input{
     width: 350px;
     height: 20px;
-    margin: 10px 515px;
+    /* margin: 10px 515px; */
     border-radius: 5px;
 
 }
@@ -81,8 +87,8 @@ nav ul li{
 .movies{
     margin: 30px;
     gap: 7%;
-    /* width: 200px; */
-    /* height: 200px; */
+    /* width: 290px; */
+    /* height: 180px; */
     flex-wrap: wrap;
     display: flex;
     width: 100%;
@@ -101,7 +107,15 @@ footer{
     align-items: center;
 }
 
+
 .movies > img{
   width: 300px;
   margin: 20px;
 }
+
+.movies >img{
+    margin: 20px;
+    width: 300px;
+
+}
+
