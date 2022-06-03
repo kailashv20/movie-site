@@ -36,7 +36,7 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    /* min-height: 75vh; */
    
 }
 .info{
@@ -89,9 +89,12 @@ nav ul li{
     gap: 7%;
     /* width: 290px; */
     /* height: 180px; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     display: flex;
-    width: 100%;
+    width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow-y: hidden;
 }
 
 footer{
